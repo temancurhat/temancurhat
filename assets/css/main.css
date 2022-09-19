@@ -163,22 +163,25 @@ section {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: -15px;
+  bottom: 25px;
   z-index: 99999;
-  background: var(--color-secondary);
-  width: 44px;
-  height: 44px;
-  border-radius: 50px;
   transition: all 0.4s;
 }
 
-.scroll-top i {
+.btn-scroll{
+  width: 44px;
+  height: 44px;
+  background: var(--color-secondary);
+  border-radius: 50px;
+}
+
+.btn-scroll i {
   font-size: 24px;
   color: #fff;
   line-height: 0;
 }
 
-.scroll-top:hover {
+.btn-scroll:hover {
   background: rgba(248, 90, 64, 0.8);
   color: #fff;
 }
@@ -186,7 +189,7 @@ section {
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
-  bottom: 15px;
+  bottom: 25px;
 }
 
 /*--------------------------------------------------------------
